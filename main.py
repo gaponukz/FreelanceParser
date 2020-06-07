@@ -3,7 +3,7 @@ from db import SQLiter, Parse
 import asyncio
 import codecs
 
-bot = Bot(token = '1107988293:AAHnlOctq07UDPs2qeeg5eWVwYtw_qVLSWs')
+bot = Bot(token = 'API_KEY')
 dp = Dispatcher(bot)
 db = SQLiter('db.db')
 
